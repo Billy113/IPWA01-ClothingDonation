@@ -6,11 +6,13 @@ idea and initial structure from: https://github.com/tomdoesTech/gotth
 * Templ - Templating
 * HTMX - Interactivity
 
+# Run Application 
 
-# run application 
-```
 build container: 
-    docker build --tag {container-name} . 
+```
+docker build --tag {container-name} . 
 ```
 run container:
-     docker run -p 8080:8080 {container-name} 
+```
+docker run -p 8080:8080 {container-name}
+```
